@@ -1,0 +1,258 @@
+body{
+    background-size: 100% 100%;
+    background-image: url("../img/home_cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin:0px auto;
+}
+
+.home_title{
+    color:white;
+    font-weight: bold;
+    font-size:90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top:80px;
+}
+
+.home_welcome{
+    color:white;
+    font-weight: bold;
+    font-size:60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.minions{
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom:100px;
+}
+.selectbutton{
+    width: 300px;
+    height: 80px;
+    font-size:40px;
+    color:white;
+    background-color:  #87556f;
+    border-radius: 20px;
+    border:none;
+}
+
+.selectbutton:hover{
+    background-color:#efbbcf;
+    cursor: pointer;
+}
+
+.buttonsetting{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.page_title{
+    color:white;
+    font-weight: bold;
+    font-size:50px;
+    text-align: center;
+    padding-top:60px;
+}
+
+.explain{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    line-height: 2em;
+    border:1px none;
+    background:#ffcb74;   
+    height:100px;
+    width:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+.explain p{
+    padding-top:10px;
+}
+
+.point{
+    color:#87556f; 
+    font-weight: bolder;
+}
+
+.starting{
+    padding-top:60px;
+    width:450px;
+}
+
+.startbutton{
+    width: 300px;
+    height: 80px;
+    font-size:25px;
+    color:white;
+    background-color:  #87556f;
+    border-radius: 20px;
+    border:none;
+}
+
+.startbutton:hover{
+    background-color:  #f6def6;
+    cursor: pointer;
+}
+
+.returnbutton{
+    width: 300px;
+    height: 80px;
+    font-size:25px;
+    color:white;
+    background-color:  #f2aaaa;
+    border-radius: 20px;
+    border:none;
+}
+
+.returnbutton:hover{
+    background-color:  #f6def6;
+    cursor: pointer;
+}
+
+.pagebutton{
+    flex-direction: column;
+    padding-top:140px;
+    padding-left:100px;
+}
+
+.pagebuttonlist{
+    margin-right:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.start{
+    display:flex;
+    justify-content: center;
+    padding-bottom:50px;
+}
+
+.computer{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+}
+
+
+
+.gamerule{
+    font-size:30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gamebuttonchoose{
+    width: 300px;
+    height: 80px;
+    font-size:25px;
+    color:white;
+    background-color:  #fc9d9d;
+    border-radius: 20px;
+    border:none;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.gamebuttonchoose:hover{
+    background-color:  #900c3f;
+    cursor: pointer;
+}
+
+.gamebutton{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.comresult{
+    width:200px;
+}
+
+.computer{
+    display: flex;
+    justify-content: center;
+}
+
+.gameimg{
+    width:300px;
+    padding-right:100px;
+}
+
+#mychoice p{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:#900c3f;
+}
+
+.myresult{
+    width:100px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+
+.result{
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:80px;
+
+    font-size:25px;
+    text-align:center;
+    background: #f7d6bf;
+    width:400px;
+    height:150px;
+    
+}
+
+#resulttotal{
+    padding-top:25px;
+}
+
+#resultwin{
+    font-size:20px;
+}
+
+.resulttell{
+    text-align:center;
+    font-size:40px;
+}
+
+.resulttell p{
+    font-size:100px;
+    font-weight:bold;
+}
+
+
+.next{
+    width: 300px;
+    height: 80px;
+    font-size:25px;
+    color:white;
+    background-color:  #fc9d9d;
+    border-radius: 20px;
+    border:none;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.next:hover{
+    background-color:  #900c3f;
+    cursor: pointer;
+}
